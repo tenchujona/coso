@@ -260,17 +260,13 @@ button a{
     color: white;
 }
 
-.texto-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    color: white;
-    margin: 200px;
+
+.container{
+    width: 1080px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.texto-grid img{
-    width: 300px;
-    
-}
+
 @media screen and (max-width: 600px){
     .categorias{
         display: flex;
@@ -311,7 +307,7 @@ button a{
         top: 90px;
         left: -100%;
         text-align: center;
-        transition: all.5s;    
+        transition: all 5s;    
     }
     nav ul li{
         display: block;
@@ -386,5 +382,12 @@ button a{
         font-size: 12px;
     }
 
+    .container{
+        max-width: 100%;
+    }
     
+    footer{
+        margin-top: 55px;
+    }
+        
 }
